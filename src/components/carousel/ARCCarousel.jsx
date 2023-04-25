@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 export default function ARCCarousel() {
   return (
-    <div>
+    <div className='Carousel-img'>
       <Carousel>
         <Carousel.Item>
           <img
