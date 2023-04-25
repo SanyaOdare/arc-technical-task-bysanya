@@ -12,12 +12,16 @@ html {
   font-size: 10px;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .App {
   margin-top: 1.6rem;
   text-align: center;
 }
 
-.App-logo {
+.ARC-logo {
   width: 18rem;
   /* pointer-events: none; */
 }
