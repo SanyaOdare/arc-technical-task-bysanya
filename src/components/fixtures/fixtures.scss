@@ -1,5 +1,6 @@
 // @import "../../App.css";
 
-.fixture-image {
-  width: 100vw;
+.fixture-img {
+  object-fit: cover;
+  width: 100%;
 }

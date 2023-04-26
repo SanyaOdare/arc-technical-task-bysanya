@@ -1,0 +1,1 @@
+export const logo = '../assets/arc-logo.png'
