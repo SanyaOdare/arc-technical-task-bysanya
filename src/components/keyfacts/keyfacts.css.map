@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "keyfacts.scss"
+    ],
+    "names": [],
+    "file": "keyfacts.css"
+}

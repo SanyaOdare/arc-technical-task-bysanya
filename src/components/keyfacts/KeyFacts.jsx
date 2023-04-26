@@ -1,8 +1,8 @@
-import React from 'react'
+import './keyfacts.scss'
 
 const KeyFacts = () => {
   return (
-    <div>
+    <div className='keyfacts-container'>
       <div>
         <h5>Over 500</h5>
         <p>Horse Racing Fixtures Annually</p>
