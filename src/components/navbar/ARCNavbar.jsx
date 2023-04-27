@@ -1,4 +1,4 @@
-import React from 'react';
+import './navbar.scss'
 import { Navbar } from 'react-bootstrap';
 
 import Container from 'react-bootstrap/Container';

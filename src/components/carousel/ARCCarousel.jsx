@@ -1,33 +1,35 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap';
+import './carousel.scss'
+import Carousel from 'react-bootstrap/Carousel';
 
-export default function ARCCarousel() {
+function ARCCarousel() {
+
   return (
-    <div className='Carousel-img'>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://www.arenaracingcompany.co.uk/ArenaRacingCompany/images/upload/6f990b94-97a0-43c7-9af8-b54c25357c48.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>2023 Annual Memberships</h3>
-            <p>Your ticket to all the racing action!</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://www.arenaracingcompany.co.uk/ArenaRacingCompany/images/upload/2136604a-a5f6-487f-8866-b4a0cb26c591.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>£1 Million All-Weather Bonus</h3>
-            <p>To be won at ARC all-weather racecourses this Winter!</p>
-          </Carousel.Caption>
-        </Carousel.Item>        
-      </Carousel>
-    </div>
-  )
+    <Carousel  className='Carousel-container'>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.arenaracingcompany.co.uk/ArenaRacingCompany/images/upload/6f990b94-97a0-43c7-9af8-b54c25357c48.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption className='Carousel-caption'>
+          <h3>2023 Annual Memberships</h3>
+          <p>Your ticket to all the racing action!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.arenaracingcompany.co.uk/ArenaRacingCompany/images/upload/2136604a-a5f6-487f-8866-b4a0cb26c591.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption className='Carousel-caption'>
+          <h3>£1 Million All-Weather Bonus</h3>
+          <p>To be won at ARC all-weather racecourses this Winter!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
+
+export default ARCCarousel;
